@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5422B85722F8571400958ED7 /* MLVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5422B85622F8571400958ED7 /* MLVision.swift */; };
+		5477D5A022F872AD006D90C3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477D59F22F872AD006D90C3 /* Alert.swift */; };
+		5477D5A222F87A3C006D90C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477D5A122F87A3C006D90C3 /* Network.swift */; };
+		5477D5A422F8A9E9006D90C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5477D5A322F8A9E8006D90C3 /* GoogleService-Info.plist */; };
+		547A5A2D22F331E900B8EA6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A2C22F331E900B8EA6A /* AppDelegate.swift */; };
+		547A5A3222F331E900B8EA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547A5A3022F331E900B8EA6A /* Main.storyboard */; };
+		547A5A3422F331EB00B8EA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547A5A3322F331EB00B8EA6A /* Assets.xcassets */; };
+		547A5A3722F331EB00B8EA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547A5A3522F331EB00B8EA6A /* LaunchScreen.storyboard */; };
+		547A5A4222F331EB00B8EA6A /* TransTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A4122F331EB00B8EA6A /* TransTravelTests.swift */; };
+		547A5A4D22F331EB00B8EA6A /* TransTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A4C22F331EB00B8EA6A /* TransTravelUITests.swift */; };
+		547A5A5E22F38F0E00B8EA6A /* SelectPictureMethodViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A5D22F38F0E00B8EA6A /* SelectPictureMethodViewCell.swift */; };
+		547A5A6022F3BC7A00B8EA6A /* PickingPictureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A5F22F3BC7A00B8EA6A /* PickingPictureVC.swift */; };
+		547A5A6222F3BCAB00B8EA6A /* ProcessingPictureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A6122F3BCAB00B8EA6A /* ProcessingPictureVC.swift */; };
+		547A5A6422F3BCBF00B8EA6A /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A6322F3BCBF00B8EA6A /* ResultVC.swift */; };
+		547A5A6622F3BCD000B8EA6A /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A6522F3BCD000B8EA6A /* SettingsVC.swift */; };
+		547A5A6822F3BCDC00B8EA6A /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A6722F3BCDC00B8EA6A /* AboutVC.swift */; };
+		547A5A6B22F3BFE200B8EA6A /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A5A6A22F3BFE200B8EA6A /* Language.swift */; };
+		7E93E7929134026E03571CE3 /* Pods_TransTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C6920D7A259A46F61DF316 /* Pods_TransTravel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547A5A3E22F331EB00B8EA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547A5A2122F331E900B8EA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547A5A2822F331E900B8EA6A;
+			remoteInfo = TransTravel;
+		};
+		547A5A4922F331EB00B8EA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547A5A2122F331E900B8EA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547A5A2822F331E900B8EA6A;
+			remoteInfo = TransTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5422B85622F8571400958ED7 /* MLVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLVision.swift; sourceTree = "<group>"; };
+		5477D59F22F872AD006D90C3 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5477D5A122F87A3C006D90C3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		5477D5A322F8A9E8006D90C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		547A5A2922F331E900B8EA6A /* TransTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547A5A2C22F331E900B8EA6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		547A5A3122F331E900B8EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547A5A3322F331EB00B8EA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547A5A3622F331EB00B8EA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547A5A3822F331EB00B8EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547A5A3D22F331EB00B8EA6A /* TransTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547A5A4122F331EB00B8EA6A /* TransTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransTravelTests.swift; sourceTree = "<group>"; };
+		547A5A4322F331EB00B8EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547A5A4822F331EB00B8EA6A /* TransTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547A5A4C22F331EB00B8EA6A /* TransTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransTravelUITests.swift; sourceTree = "<group>"; };
+		547A5A4E22F331EB00B8EA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547A5A5D22F38F0E00B8EA6A /* SelectPictureMethodViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPictureMethodViewCell.swift; sourceTree = "<group>"; };
+		547A5A5F22F3BC7A00B8EA6A /* PickingPictureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickingPictureVC.swift; sourceTree = "<group>"; };
+		547A5A6122F3BCAB00B8EA6A /* ProcessingPictureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingPictureVC.swift; sourceTree = "<group>"; };
+		547A5A6322F3BCBF00B8EA6A /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		547A5A6522F3BCD000B8EA6A /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		547A5A6722F3BCDC00B8EA6A /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		547A5A6A22F3BFE200B8EA6A /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		907B899BCDEC1987C4FF77B7 /* Pods-TransTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransTravel.release.xcconfig"; path = "Target Support Files/Pods-TransTravel/Pods-TransTravel.release.xcconfig"; sourceTree = "<group>"; };
+		90C6920D7A259A46F61DF316 /* Pods_TransTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBE4B4A5D43246F780F9A1E /* Pods-TransTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransTravel.debug.xcconfig"; path = "Target Support Files/Pods-TransTravel/Pods-TransTravel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547A5A2622F331E900B8EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E93E7929134026E03571CE3 /* Pods_TransTravel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A5A3A22F331EB00B8EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A5A4522F331EB00B8EA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21196A349E89C3D063939632 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE4B4A5D43246F780F9A1E /* Pods-TransTravel.debug.xcconfig */,
+				907B899BCDEC1987C4FF77B7 /* Pods-TransTravel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5415939222F6436000D877E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				547A5A5F22F3BC7A00B8EA6A /* PickingPictureVC.swift */,
+				547A5A6122F3BCAB00B8EA6A /* ProcessingPictureVC.swift */,
+				547A5A6322F3BCBF00B8EA6A /* ResultVC.swift */,
+				547A5A6522F3BCD000B8EA6A /* SettingsVC.swift */,
+				547A5A6722F3BCDC00B8EA6A /* AboutVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5422B85522F856A300958ED7 /* MLVision */ = {
+			isa = PBXGroup;
+			children = (
+				5422B85622F8571400958ED7 /* MLVision.swift */,
+			);
+			path = MLVision;
+			sourceTree = "<group>";
+		};
+		547A5A2022F331E900B8EA6A = {
+			isa = PBXGroup;
+			children = (
+				547A5A2B22F331E900B8EA6A /* TransTravel */,
+				547A5A4022F331EB00B8EA6A /* TransTravelTests */,
+				547A5A4B22F331EB00B8EA6A /* TransTravelUITests */,
+				547A5A2A22F331E900B8EA6A /* Products */,
+				21196A349E89C3D063939632 /* Pods */,
+				8E4070BA6A9771B290748B06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		547A5A2A22F331E900B8EA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547A5A2922F331E900B8EA6A /* TransTravel.app */,
+				547A5A3D22F331EB00B8EA6A /* TransTravelTests.xctest */,
+				547A5A4822F331EB00B8EA6A /* TransTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547A5A2B22F331E900B8EA6A /* TransTravel */ = {
+			isa = PBXGroup;
+			children = (
+				547A5A2C22F331E900B8EA6A /* AppDelegate.swift */,
+				547A5A5B22F37CC700B8EA6A /* Controller */,
+				547A5A5A22F37CB900B8EA6A /* View */,
+				547A5A6922F3BFAF00B8EA6A /* Model */,
+				547A5A5C22F37CD900B8EA6A /* Supporting Files */,
+			);
+			path = TransTravel;
+			sourceTree = "<group>";
+		};
+		547A5A4022F331EB00B8EA6A /* TransTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				547A5A4122F331EB00B8EA6A /* TransTravelTests.swift */,
+				547A5A4322F331EB00B8EA6A /* Info.plist */,
+			);
+			path = TransTravelTests;
+			sourceTree = "<group>";
+		};
+		547A5A4B22F331EB00B8EA6A /* TransTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				547A5A4C22F331EB00B8EA6A /* TransTravelUITests.swift */,
+				547A5A4E22F331EB00B8EA6A /* Info.plist */,
+			);
+			path = TransTravelUITests;
+			sourceTree = "<group>";
+		};
+		547A5A5A22F37CB900B8EA6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5477D59F22F872AD006D90C3 /* Alert.swift */,
+				547A5A5D22F38F0E00B8EA6A /* SelectPictureMethodViewCell.swift */,
+				547A5A3022F331E900B8EA6A /* Main.storyboard */,
+				547A5A3522F331EB00B8EA6A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		547A5A5B22F37CC700B8EA6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5422B85522F856A300958ED7 /* MLVision */,
+				5415939222F6436000D877E0 /* ViewControllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		547A5A5C22F37CD900B8EA6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547A5A3322F331EB00B8EA6A /* Assets.xcassets */,
+				547A5A3822F331EB00B8EA6A /* Info.plist */,
+				5477D5A322F8A9E8006D90C3 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		547A5A6922F3BFAF00B8EA6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				547A5A6A22F3BFE200B8EA6A /* Language.swift */,
+				5477D5A122F87A3C006D90C3 /* Network.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E4070BA6A9771B290748B06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90C6920D7A259A46F61DF316 /* Pods_TransTravel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547A5A2822F331E900B8EA6A /* TransTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547A5A5122F331EB00B8EA6A /* Build configuration list for PBXNativeTarget "TransTravel" */;
+			buildPhases = (
+				8FA0993733FC9638589C9920 /* [CP] Check Pods Manifest.lock */,
+				547A5A2522F331E900B8EA6A /* Sources */,
+				547A5A2622F331E900B8EA6A /* Frameworks */,
+				547A5A2722F331E900B8EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransTravel;
+			productName = TransTravel;
+			productReference = 547A5A2922F331E900B8EA6A /* TransTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547A5A3C22F331EB00B8EA6A /* TransTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547A5A5422F331EB00B8EA6A /* Build configuration list for PBXNativeTarget "TransTravelTests" */;
+			buildPhases = (
+				547A5A3922F331EB00B8EA6A /* Sources */,
+				547A5A3A22F331EB00B8EA6A /* Frameworks */,
+				547A5A3B22F331EB00B8EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547A5A3F22F331EB00B8EA6A /* PBXTargetDependency */,
+			);
+			name = TransTravelTests;
+			productName = TransTravelTests;
+			productReference = 547A5A3D22F331EB00B8EA6A /* TransTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		547A5A4722F331EB00B8EA6A /* TransTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547A5A5722F331EB00B8EA6A /* Build configuration list for PBXNativeTarget "TransTravelUITests" */;
+			buildPhases = (
+				547A5A4422F331EB00B8EA6A /* Sources */,
+				547A5A4522F331EB00B8EA6A /* Frameworks */,
+				547A5A4622F331EB00B8EA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547A5A4A22F331EB00B8EA6A /* PBXTargetDependency */,
+			);
+			name = TransTravelUITests;
+			productName = TransTravelUITests;
+			productReference = 547A5A4822F331EB00B8EA6A /* TransTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547A5A2122F331E900B8EA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hesham Salama";
+				TargetAttributes = {
+					547A5A2822F331E900B8EA6A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					547A5A3C22F331EB00B8EA6A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 547A5A2822F331E900B8EA6A;
+					};
+					547A5A4722F331EB00B8EA6A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 547A5A2822F331E900B8EA6A;
+					};
+				};
+			};
+			buildConfigurationList = 547A5A2422F331E900B8EA6A /* Build configuration list for PBXProject "TransTravel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547A5A2022F331E900B8EA6A;
+			productRefGroup = 547A5A2A22F331E900B8EA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547A5A2822F331E900B8EA6A /* TransTravel */,
+				547A5A3C22F331EB00B8EA6A /* TransTravelTests */,
+				547A5A4722F331EB00B8EA6A /* TransTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547A5A2722F331E900B8EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A5A3722F331EB00B8EA6A /* LaunchScreen.storyboard in Resources */,
+				5477D5A422F8A9E9006D90C3 /* GoogleService-Info.plist in Resources */,
+				547A5A3422F331EB00B8EA6A /* Assets.xcassets in Resources */,
+				547A5A3222F331E900B8EA6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A5A3B22F331EB00B8EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A5A4622F331EB00B8EA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FA0993733FC9638589C9920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TransTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547A5A2522F331E900B8EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A5A6822F3BCDC00B8EA6A /* AboutVC.swift in Sources */,
+				547A5A6422F3BCBF00B8EA6A /* ResultVC.swift in Sources */,
+				547A5A6022F3BC7A00B8EA6A /* PickingPictureVC.swift in Sources */,
+				547A5A5E22F38F0E00B8EA6A /* SelectPictureMethodViewCell.swift in Sources */,
+				547A5A6222F3BCAB00B8EA6A /* ProcessingPictureVC.swift in Sources */,
+				5477D5A222F87A3C006D90C3 /* Network.swift in Sources */,
+				5422B85722F8571400958ED7 /* MLVision.swift in Sources */,
+				547A5A6B22F3BFE200B8EA6A /* Language.swift in Sources */,
+				547A5A2D22F331E900B8EA6A /* AppDelegate.swift in Sources */,
+				5477D5A022F872AD006D90C3 /* Alert.swift in Sources */,
+				547A5A6622F3BCD000B8EA6A /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A5A3922F331EB00B8EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A5A4222F331EB00B8EA6A /* TransTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A5A4422F331EB00B8EA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A5A4D22F331EB00B8EA6A /* TransTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547A5A3F22F331EB00B8EA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547A5A2822F331E900B8EA6A /* TransTravel */;
+			targetProxy = 547A5A3E22F331EB00B8EA6A /* PBXContainerItemProxy */;
+		};
+		547A5A4A22F331EB00B8EA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547A5A2822F331E900B8EA6A /* TransTravel */;
+			targetProxy = 547A5A4922F331EB00B8EA6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547A5A3022F331E900B8EA6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547A5A3122F331E900B8EA6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547A5A3522F331EB00B8EA6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547A5A3622F331EB00B8EA6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547A5A4F22F331EB00B8EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		547A5A5022F331EB00B8EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547A5A5222F331EB00B8EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBE4B4A5D43246F780F9A1E /* Pods-TransTravel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPV8AMUR2Q;
+				INFOPLIST_FILE = TransTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hesham.TransTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547A5A5322F331EB00B8EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907B899BCDEC1987C4FF77B7 /* Pods-TransTravel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPV8AMUR2Q;
+				INFOPLIST_FILE = TransTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hesham.TransTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		547A5A5522F331EB00B8EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPV8AMUR2Q;
+				INFOPLIST_FILE = TransTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hesham.TransTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransTravel.app/TransTravel";
+			};
+			name = Debug;
+		};
+		547A5A5622F331EB00B8EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPV8AMUR2Q;
+				INFOPLIST_FILE = TransTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hesham.TransTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransTravel.app/TransTravel";
+			};
+			name = Release;
+		};
+		547A5A5822F331EB00B8EA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPV8AMUR2Q;
+				INFOPLIST_FILE = TransTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hesham.TransTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransTravel;
+			};
+			name = Debug;
+		};
+		547A5A5922F331EB00B8EA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPV8AMUR2Q;
+				INFOPLIST_FILE = TransTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hesham.TransTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TransTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547A5A2422F331E900B8EA6A /* Build configuration list for PBXProject "TransTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A5A4F22F331EB00B8EA6A /* Debug */,
+				547A5A5022F331EB00B8EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547A5A5122F331EB00B8EA6A /* Build configuration list for PBXNativeTarget "TransTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A5A5222F331EB00B8EA6A /* Debug */,
+				547A5A5322F331EB00B8EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547A5A5422F331EB00B8EA6A /* Build configuration list for PBXNativeTarget "TransTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A5A5522F331EB00B8EA6A /* Debug */,
+				547A5A5622F331EB00B8EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547A5A5722F331EB00B8EA6A /* Build configuration list for PBXNativeTarget "TransTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A5A5822F331EB00B8EA6A /* Debug */,
+				547A5A5922F331EB00B8EA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547A5A2122F331E900B8EA6A /* Project object */;
+}
