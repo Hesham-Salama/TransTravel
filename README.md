@@ -8,4 +8,4 @@ Note: You need to 'pod install' the pods in Podfile and integrate the code with 
 
 <img src="/Screenshots/Simulator Screen Shot - iPhone Xʀ - 2019-12-06 at 18.38.17.png" alt="s1"/>
 <img src="/Screenshots/Simulator Screen Shot - iPhone Xʀ - 2019-12-06 at 18.39.17.png" alt="s1"/>
-<img src="/Screenshots/Simulator Screen Shot - iPhone Xʀ - 2019-12-06 at 18.39.52" alt="s1"/>
+<img src="/Screenshots/Simulator Screen Shot - iPhone Xʀ - 2019-12-06 at 18.39.52.png" alt="s1"/>
